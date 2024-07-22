@@ -1,0 +1,21 @@
+{
+  "name": "Promo Tech",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && nodemon server.js",
+    "client": "cd client && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "formidable": "^3.5.1",
+    "nodemon": "^3.1.4",
+    "oauth-1.0a": "^2.2.6",
+    "qs": "^6.12.3",
+    "reddit": "^1.2.1"
+  }
+}
